@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nossos Momentos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <header>
+        <h1>Nossos Momentos</h1>
+        <div class="love-counter">
+            <p>Estamos juntos há:</p>
+            <div id="love-timer"></div>
+        </div>
+        <iframe style="border-radius:12px"
+            src="https://open.spotify.com/embed/playlist/618vjfBQhhQS6eOE0QVTJ5?utm_source=generator&theme=0"
+            width="100%" height="250" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <nav>
+            <button onclick="mostrarAba('fotos')">Fotos</button>
+            <button onclick="mostrarAba('textos')">Dates</button>
+            <button onclick="mostrarAba('videos')">Vídeos</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="fotos" class="aba ativa">
+            <div class="gallery">
+                <div class="photo">
+                    <img src="fotos/Foto (1).jpeg" alt="Foto 1" />
+                    <p class="legenda">Nosso primeiro post namorando</p>
+                    <span class="data">18/10/2024</span>
+                </div>
+                <div class="photo">
+                    <img src="fotos/Foto (10).jpeg" alt="Foto 1" />
+                    <p class="legenda">Sua primeira vez aqui em casa</p>
+                    <span class="data">19/10/2024</span>
+                </div>
+                <div class="photo">
+                    <img src="fotos/Foto (2).jpeg" alt="Foto 2" />
+                    <p class="legenda">Aniversário da minha Mãe</p>
+                    <span class="data">28/10/2024</span>
+                </div>
+                <div class="photo">
+                    <img src="fotos/Foto (6).jpeg" alt="Foto 3" />
+                    <p class="legenda">Nosso jantar especial</p>
+                    <span class="data">23/11/2024</span>
+                </div>
+                <div class="photo">
+                    <img src="fotos/Foto (8).jpeg" alt="Foto 2" />
+                    <p class="legenda">Nosso mini ensaio de Natal</p>
+                    <span class="data">20/12/2024</span>
+                </div>
+                <div class="photo">
+                    <img src="fotos/Foto (3).jpeg" alt="Foto 3" />
+                    <p class="legenda">Apresentação de Ballet da Maria</p>
+                    <span class="data">20/12/2024</span>
+                </div>
+                <div class="photo">
+                    <img src="fotos/Foto (5).jpeg" alt="Foto 2" />
+                    <p class="legenda">Nosso Primeiro Natal</p>
+                    <span class="data">25/12/2024</span>
+                </div>
+                <div class="photo">
+                    <img src="fotos/Foto (9).jpeg" alt="Foto 3" />
+                    <p class="legenda">Nosso Primeiro Revelion</p>
+                    <span class="data">31/12/2024</span>
+                </div>
+                <div class="photo">
+                    <img src="fotos/Foto (7).jpeg" alt="Foto 1" />
+                    <p class="legenda">Nós ❤️</p>
+                    <span class="data">4/04/2025</span>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section id="textos" class="aba">
+            <!-- <div class="posts-texto">
+                <div class="post-texto">
+                    <p>Hoje lembrei do nosso primeiro beijo. Foi mágico. 💖</p>
+                    <div class="info-post">
+                        <span class="data">20/10/2024</span>
+                        <span class="like">❤️</span>
+                    </div>
+                </div>
+                <div class="post-texto">
+                    <p>Você é meu lugar favorito no mundo todo.</p>
+                    <div class="info-post">
+                        <span class="data">02/11/2024</span>
+                        <span class="like">❤️</span>
+                    </div>
+                </div>
+                <div class="post-texto">
+                    <p>Às vezes paro e penso: como fui ter tanta sorte?</p>
+                    <div class="info-post">
+                        <span class="data">10/11/2024</span>
+                        <span class="like">❤️</span>
+                    </div>
+                </div>
+            </div> -->
+            <div class="gallery">
+                <div class="photo">
+                    <img src="fotos/Date(1).jpeg" alt="Foto 1" />
+                    <p class="legenda">Churros e Banoffe</p>
+                    <span class="data">27/10/2024</span>
+                </div>
+                <div class="photo">
+                    <img src="fotos/Date(4).jpeg" alt="Foto 2" />
+                    <p class="legenda">Esfihas abertas</p>
+                    <span class="data">09/11/2024</span>
+                </div>
+                <div class="photo">
+                    <img src="fotos/Date(2).jpeg" alt="Foto 1" />
+                    <p class="legenda">Hamburgueria</p>
+                    <span class="data">23/03/2025</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="videos" class="aba">
+            <div class="gallery-videos">
+                <div class="video-post">
+                    <video src="videos/video1.mp4" controls></video>
+                    <p class="legenda">O Nosso Primeiro Video</p>
+                </div>
+                <div class="video-post">
+                    <video src="videos/video2.mp4" controls></video>
+                    <p class="legenda">Dia dos Namorados</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
